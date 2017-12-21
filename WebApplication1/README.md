@@ -1,23 +1,23 @@
-*Maze Solver*
+# Maze Solver
 This program is a core API service that accepts a Json body through a POST and returns a Json back with the answer of how many steps it took as well as the edited maze showing the path it took.
 
-*Getting Started*
+# Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-*Prerequisites*
+# Prerequisites
 Microsoft Visual Studio 2017.
 A way to send a Json to a Post Method(I used Postman)
 A maze to send to the API using
-  . that represents an open road
-  # that represents a blocked road
-  A that represents the starting point
-  B that represents the destination point
+  .-that represents an open road
+  #-that represents a blocked road
+  A-that represents the starting point
+  B-that represents the destination point
 
-*Installing*
+# Installing
 After installing Microsoft Visual Studio, Double Click on the .cproj.
 Press C+F5 to run the program.
 
-(option A - has the visual information returned)
+# (option A - has the visual information returned)
 Open Postman.
 Select New in the top left corner.
 Select Request option.
